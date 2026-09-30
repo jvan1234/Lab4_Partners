@@ -8,3 +8,23 @@ void Car::printInfo() const {
     std::cout << "Year: " << year << std::endl;
     std::cout << "MPG: " << mpg << std::endl;
 }
+
+void Car::setMake(const std::string& make)
+{
+    this->make = make;
+}
+
+void Car::setModel(const std::string& model)
+{
+    this->model = model;
+}
+
+void Car::setYear(int year)
+{
+    this->year = year;
+}
+
+void Car::setMPG(double MPG)
+{
+    this->mpg = MPG;
+}
