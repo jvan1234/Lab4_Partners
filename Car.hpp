@@ -20,6 +20,7 @@ public:
     std::string getModel() const;
     int getYear() const;
     double getMPG() const;
+    double getFuelLevel() const;
 
 private:
     std::string make;
