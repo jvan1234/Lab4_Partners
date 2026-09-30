@@ -26,6 +26,10 @@ private:
     std::string model;
     int year;
     double mpg;
+    // Variables for gas
+    double mileage;
+    double fuel_capacity;
+    double fuel_level;
 };
 
 #endif
